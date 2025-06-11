@@ -9,8 +9,8 @@
 }
 
 :root {
-    --yellow-one-price-button: #febe01;
-    --yellow-two-color-button: #f8d000;
+    --blue-one-price-button: #01cbfe;
+    --blue-two-color-button: #01cbfe;
     --black: #111;
     --gray: #b2b2b2;
     --white: #fff;
@@ -39,12 +39,12 @@ p {
     margin: 15px 0;
 }
 
-.yellow {
-    color: var(--yellow-one-price-button);
+.blue {
+    color: var(--blue-one-price-button);
 }
 
 #button-buy {
-    background-color: var(--yellow-two-color-button);
+    background-color: var(--blue-two-color-button);
     border-radius: 5px;
     color: var(--black);
     display: inline-block;
