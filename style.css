@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: "Roboto", sans-serif;
+
+}
+
+:root {
+    --yellow-one-price-button: #febe01;
+    --yellow-two-color-button: #f8d000;
+    --black: #111;
+    --gray: #b2b2b2;
+    --white: #fff;
+
+}
+
+header h1 {
+    text-align: center;
+}
+
+section {
+    display: block;
+    background-color: var(--black);
+    margin: 20px;
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: var(--white);
+}
+
+p {
+    color: var(--gray);
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.yellow {
+    color: var(--yellow-one-price-button);
+}
+
+.button-buy {
+    background-color: var(--yellow-two-color-button);
+    border-radius: 5px;
+    color: var(--black);
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.button-buy:hover {
+    background-color: var(--black);
+    box-shadow: 2px 2px 20px var(--yellow-two-color-button);
+    color: var(--white);
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 5px;
+    box-shadow: 1px 1px 25px var(--yellow-two-color-button);
+}
+
+footer small {
+    flex: 1;
+    text-align: center;
+}
+
+footer small a {
+    color: var(--yellow-one-price-button);
+    text-decoration: none;
+}
